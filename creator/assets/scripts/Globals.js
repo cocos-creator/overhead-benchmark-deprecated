@@ -1,0 +1,3 @@
+window.G = {
+    benchmark: null,
+};
