@@ -2,7 +2,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        loopCount: 100000,
+        loopCount: 500,
 
         _sum: {
             default: 0,

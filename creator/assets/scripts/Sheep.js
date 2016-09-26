@@ -5,7 +5,6 @@ var Sheep = cc.Class({
 
     properties: {
         dustPrefab: cc.Prefab,
-        normalSpeed: -300,
 
         _myDust: {
             default: null,

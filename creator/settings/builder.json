@@ -5,10 +5,10 @@
     "anysdk"
   ],
   "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
   },
   "packageName": "org.cocos2d.creator",
   "startScene": "9ad236f6-273d-4b1a-bd7f-9e88f9f0b84d",

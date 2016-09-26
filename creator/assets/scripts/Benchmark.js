@@ -55,7 +55,6 @@ cc.Class({
 
     spawn (topLeft, bottomRight) {
         var newNodes = [];
-        this._runningTestCases.push(newNodes);
         for (var i = 0; i < this.spawnObjects.length; ++i) {
             var template = this.spawnObjects[i];
             var node = cc.instantiate(template);
@@ -66,6 +65,7 @@ cc.Class({
             node.parent = template.parent;
             newNodes.push(node);
         }
+        this._runningTestCases.push(newNodes);
         if (this.testExtraLogic) {
             newNodes[0].addComponent(ExtraLogic);
         }

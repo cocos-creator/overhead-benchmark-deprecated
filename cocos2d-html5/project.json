@@ -1,0 +1,24 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "ccui"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/utils.js",
+        "src/scroller.js",
+        "src/driller.js",
+        "src/sprite-animation.js",
+        "src/extra-logic.js",
+        "src/dust-ctrl.js",
+        "src/app.js"
+    ]
+}
