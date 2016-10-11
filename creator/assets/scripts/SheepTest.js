@@ -18,10 +18,6 @@ cc.Class({
         this._myDust.zIndex = -1;
         this._myDust.on(SpriteAnimation.EVENT_END, this.playDustEffect, this);
         this.playDustEffect();
-
-        var sroller = this.getComponent('Scroller');
-        sroller.left = this.node.parent.convertToNodeSpaceAR(cc.visibleRect.left).x - 100;
-        sroller.right = this.node.parent.convertToNodeSpaceAR(cc.visibleRect.right).x + 250;
     },
 
     onDisable () {

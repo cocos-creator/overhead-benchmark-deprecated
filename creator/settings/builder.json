@@ -1,5 +1,8 @@
 {
-  "excludeScenes": [],
+  "excludeScenes": [
+    "083e4219-e624-4dca-a7f6-704b81371c30",
+    "7517619f-d0bd-4eef-95bf-5e5faf782d0a"
+  ],
   "includeAnySDK": false,
   "includeSdk": [
     "anysdk"
